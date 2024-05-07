@@ -13,7 +13,7 @@ const LoginForm = () => {
 
   return (
     <article className="w-full h-full flex justify-center items-center">
-      <div className=" flex justify-center items-center flex-col gap-5 w-[50%]">
+      <div className=" flex justify-center items-center flex-col gap-5  w-[90%] lg:w-[50%]">
         <Image alt={"logo"} src={Logo} width={120} />
         <h1 className="text-2xl text-center text-white">{t('welcome')}!</h1>
 

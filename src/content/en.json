@@ -16,6 +16,8 @@
         "contactSupport": "contact support",
         "forgotPassword": "Forgot password?",
         "newToTeech": "New to teech?",
+        "resetPasswordHere": "Forgot password ? reset it here",
+        "sendResetLink": "Send reset link",
         "description":"Learn things you re really interested in - together with the worldbest mentors"
     }
 }

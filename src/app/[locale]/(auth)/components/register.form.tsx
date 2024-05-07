@@ -13,13 +13,13 @@ const RegistrationForm = () => {
 
   return (
     <article className="w-full h-full flex justify-center items-center">
-      <div className="flex justify-center items-center flex-col gap-5 max-w-[50%]">
+      <div className="flex justify-center items-center flex-col gap-5 max-w-[90%] lg:max-w-[50%]">
         <Image alt={"logo"} src={Logo} width={120} />
         <h1 className="text-2xl text-center text-white">{t("welcome")}</h1>
-        <Grid gridTemplateColumns={"1fr 1fr"} gap={4}>
+        <Grid gridTemplateColumns={{sm:'1fr',lg:"1fr 1fr"}} gap={4} w={'full'}>
           <Input label={t('inputs.firstName')} type="text" />
           <Input label={t('inputs.lastName')} type="text" />
-          <Input className="col-span-2" label={t('inputs.email')} type="email" />
+          <Input className="sm:col-span-1 lg:col-span-2" label={t('inputs.email')} type="email" />
           <Input label={t('inputs.password')} type="password" />
           <Input label={t('inputs.confirmPassword')} type="password" />
         </Grid>

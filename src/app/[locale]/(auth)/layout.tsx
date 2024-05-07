@@ -8,8 +8,11 @@ export default function Layout({ children }: { children: React.ReactNode }) {
   return (
     <NextIntlClientProvider messages={messages}>
       <section className="bg-black w-full h-[100vh] relative">
-        <Grid gridTemplateColumns={"1fr 1fr"}>
+        <Grid gridTemplateColumns={{sm:"1fr",lg:"1fr 1fr"}}>
+          <div className="flex justify-center items-center h-[100vh]">
+            
           {children}
+          </div>
           <VideoSection />
         </Grid>
       </section>

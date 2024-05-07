@@ -15,7 +15,9 @@
         "havingTrouble":"Probleme beim Anmelden?",
         "contactSupport":"Kontaktiere den Support",
         "forgotPassword":"Passwort vergessen?",
+        "resetPasswordHere":"Passwort vergessen? Hier zurücksetzen",
         "newToTeech": "Neu bei teech?",
+        "sendResetLink":"Link senden",
         "description":"Lernen Sie Dinge, die Sie wirklich interessieren - zusammen mit den weltbesten Mentoren"
 
     }

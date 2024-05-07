@@ -6,14 +6,17 @@ import Logo from "@/assets/images/logo.png";
 
 import Link from "next/link";
 import LanguagePicker from "@/components/ui/form/language-picker";
+import { useTranslations } from "next-intl";
 
 const ForgotPasswordForm = () => {
+  const t = useTranslations("Auth");
+
   return (
     <article className="w-full h-full flex justify-center items-center">
-      <div className=" flex justify-center items-center flex-col gap-5 w-[50%]">
+      <div className="flex justify-center items-center flex-col gap-5 w-[90%] lg:w-[50%]">
         <Image alt={"logo"} src={Logo} width={120} />
         <h1 className="text-lg text-center text-white">
-          Forgotten your password? You can reset it here.!
+          {t("resetPasswordHere")}
         </h1>
 
         <Input className="w-full" label="Email" type="email" />
@@ -25,13 +28,13 @@ const ForgotPasswordForm = () => {
           bg={"#443EFA"}
           color={"#fff"}
         >
-          Send reset link
+          {t("sendResetLink")}
         </Button>
 
         <h1 className="text-sm text-[#7B7A7D]">
-          Having issues?{" "}
+         {t('havingTrouble')}{" "}
           <Link className="underline" href={"/login"}>
-            contact support
+           {t('contactSupport')}
           </Link>
         </h1>
         <LanguagePicker />
