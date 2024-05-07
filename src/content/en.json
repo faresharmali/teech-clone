@@ -1,0 +1,21 @@
+{
+    "Auth": {
+        "welcome": "Welcome to teech",
+        "inputs": {
+            "firstName": "First Name",
+            "lastName": "Last Name",
+            "email": "E-Mail",
+            "password": "Password",
+            "confirmPassword": "Confirm Password",
+            "termsAndConditions": "I hereby confirm teech's terms and conditions . I have read the privacy policy."
+        },
+        "register": "Register",
+        "alreadyRegistered": "Already registered?",
+        "login": "Login",
+        "havingTrouble": "Having issues?",
+        "contactSupport": "contact support",
+        "forgotPassword": "Forgot password?",
+        "newToTeech": "New to teech?",
+        "description":"Learn things you re really interested in - together with the worldbest mentors"
+    }
+}

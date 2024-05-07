@@ -5,6 +5,7 @@ import Image from "next/image";
 import Logo from "@/assets/images/logo.png";
 
 import Link from "next/link";
+import LanguagePicker from "@/components/ui/form/language-picker";
 
 const ForgotPasswordForm = () => {
   return (
@@ -33,6 +34,8 @@ const ForgotPasswordForm = () => {
             contact support
           </Link>
         </h1>
+        <LanguagePicker />
+
       </div>
     </article>
   );

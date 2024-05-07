@@ -1,0 +1,22 @@
+{
+    "Auth": {
+        "welcome": "Willkommen bei teech",
+        "inputs": {
+            "firstName": "Vorname",
+            "lastName": "Nachname",
+            "email": "E-Mail",
+            "password": "Passwort",
+            "confirmPassword": "Passwort bestätigen",
+            "termsAndConditions":"Hiermit bestätige ich die AGB von teech. Die Datenschutzbestimmungen habe ich zur Kenntnis genommen."
+        },
+        "register":"Registrieren",
+        "alreadyRegistered":"Bereits registriert?",
+        "login":"Anmelden",
+        "havingTrouble":"Probleme beim Anmelden?",
+        "contactSupport":"Kontaktiere den Support",
+        "forgotPassword":"Passwort vergessen?",
+        "newToTeech": "Neu bei teech?",
+        "description":"Lernen Sie Dinge, die Sie wirklich interessieren - zusammen mit den weltbesten Mentoren"
+
+    }
+}
