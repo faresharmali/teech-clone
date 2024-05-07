@@ -33,7 +33,7 @@ const guestList: IGuestCard[] = [
 const Guests = () => {
   return (
     <div className="w-[15rem] h-full bg-[#191D21] rounded-md flex flex-col items-center justify-between gap-4 py-4">
-      <div className="flex flex-col items-center w-full">
+      <div className="flex flex-col items-center w-full gap-2">
         {guestList.map((section) => (
           <GuestCard key={section.name} name={section.name} img={section.img} />
         ))}
