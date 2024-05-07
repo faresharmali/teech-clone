@@ -31,9 +31,11 @@ const Input = ({
         <ChakraInput
           bg={"#262727"}
           placeholder={label}
+          color={"#fff"}
           border={"none"}
           name={name}
           type={type}
+          _placeholder={{fontSize: ".9rem"}}
         />
         <FormErrorMessage>Wrong password</FormErrorMessage>
       </FormControl>

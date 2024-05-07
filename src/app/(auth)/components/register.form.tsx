@@ -1,6 +1,6 @@
 "use client";
 import Input from "@/components/ui/form/input";
-import { Button, Checkbox, Grid } from "@chakra-ui/react";
+import { Box, Button, Checkbox, Flex, Grid } from "@chakra-ui/react";
 import Image from "next/image";
 import Logo from "@/assets/images/logo.png";
 import ReCAPTCHA from "react-google-recaptcha";
@@ -31,16 +31,30 @@ const RegistrationForm = () => {
           security="6LfjP9QpAAAAAHnQEJ-WRFUCXmAqMIkO6hLkafT9"
           onChange={(value: any) => console.log("Captcha value:", value)}
         /> */}
-        <Button mt={2} minW={300} fontSize={".9rem"} bg={"#443EFA"} color={"#fff"}>
+        <Button
+          mt={2}
+          minW={300}
+          fontSize={".9rem"}
+          bg={"#443EFA"}
+          color={"#fff"}
+        >
           Register
         </Button>
         <LanguagePicker />
-        <h1 className="text-sm text-[#7B7A7D]">
-          Already have an account ? <Link className="underline" href={"/login"}>log in now</Link>
-        </h1>
-        <h1 className="text-sm text-[#7B7A7D]">
-         Having issues ?  <Link className="underline" href={"/login"}>contact support</Link>
-        </h1>
+        <Flex direction={"column"} alignItems={"center"} gap={1}>
+          <h1 className="text-sm text-[#7B7A7D]">
+            Already have an account?{" "}
+            <Link className="underline" href={"/login"}>
+              login now
+            </Link>
+          </h1>
+          <h1 className="text-sm text-[#7B7A7D]">
+            Having issues?{" "}
+            <Link className="underline" href={"/login"}>
+              contact support
+            </Link>
+          </h1>
+        </Flex>
       </div>
     </article>
   );
