@@ -27,6 +27,8 @@ const ForgotPasswordForm = () => {
           fontSize={".9rem"}
           bg={"#443EFA"}
           color={"#fff"}
+          _hover={{ bg: "#443EFA" }}
+
         >
           {t("sendResetLink")}
         </Button>

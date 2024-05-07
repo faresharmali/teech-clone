@@ -39,6 +39,7 @@ const LoginForm = () => {
           minW={300}
           fontSize={".9rem"}
           bg={"#443EFA"}
+          _hover={{ bg: "#443EFA" }}
           color={"#fff"}
           onClick={() => {
             router.push("/room", { locale: locale });
