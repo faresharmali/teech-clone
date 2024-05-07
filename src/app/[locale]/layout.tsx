@@ -8,6 +8,9 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Teech clone",
   description: "Teech clone",
+  icons: {
+    icon: "/favicon.ico",
+  },
 };
 
 
