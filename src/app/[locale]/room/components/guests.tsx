@@ -35,7 +35,7 @@ const Guests = () => {
     <div className="w-[15rem] h-full bg-[#191D21] rounded-md flex flex-col items-center justify-between gap-4 py-4">
       <div className="flex flex-col items-center w-full">
         {guestList.map((section) => (
-          <GuestCard name={section.name} img={section.img} />
+          <GuestCard key={section.name} name={section.name} img={section.img} />
         ))}
       </div>
       <GuestCard name={"Me"} img={Guest5} />

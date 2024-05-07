@@ -51,7 +51,7 @@ const Toolbar = () => {
   return (
     <div className="w-[5rem] h-fit bg-[#191D21] rounded-md flex flex-col items-center gap-4 py-4">
       {section1.map((section: ISectionItem) => (
-        <Tooltip label={section.title} placement="right">
+        <Tooltip key={section.title} label={section.title} placement="right">
           <div className={cn('cursor-pointer rounded-md p-2',{
             'bg-[#20C6AE]': section.isActive,
           })}>
@@ -61,7 +61,7 @@ const Toolbar = () => {
       ))}
       <div className="h-[1px] w-[80%] bg-[#2C3138]" />
       {section2.map((section: ISectionItem) => (
-        <Tooltip label={section.title} placement="right">
+        <Tooltip key={section.title} label={section.title} placement="right">
           <div className="cursor-pointer py-2">
             <Image alt="cam" src={section.img} width={30} height={30} />
           </div>
