@@ -5,7 +5,7 @@ const VideoSection = () => {
     <article className="w-full h-[100vh] relative">
       <div className="absolute w-full h-full bg-[#00000040] flex justify-center items-center p-4 flex-col gap-4">
         <h1 className="text-white text-3xl text-center">
-          Learn things you're really interested in - together with the world's
+          Learn things you re really interested in - together with the world
           best mentors
         </h1>
         <Button minW={300} fontSize={".9rem"} bg={'#9C948B'}>
